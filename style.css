@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color:#04121e;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#logo{
+    width: 48px;
+
+}
+ul{
+    list-style: none;
+    color: white;
+
+}
+.header ul li{
+    display: inline-block;
+    font-size: 15px;
+    margin-left: 600 px;
+    font-weight: 600;
+    margin-right: 45px;
+}
+.botoninicio{
+    font-size: 20px;
+}
+/*CSS PARA EL BOTON DEL HEADER*/
+button {
+   
+
+    --button_color: #e8e8e8;
+    --button_outline_color: #e8e8e8;
+    font-size: 12px;
+    border: none;
+    border-radius: var(--button_radius);
+    background: var(--button_outline_color);
+  }
+
+ .jumbotron{
+    margin: 0px 100px 20px 100px;
+    background-image: url("/Imagenes/Medusa-jumbotron-unsplash.jpg");
+    background-size: 962px 341px;
+    background-repeat: no-repeat;
+    background-position: 1px -8px;
+    color: aliceblue;
+ }
