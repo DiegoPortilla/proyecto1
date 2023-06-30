@@ -40,21 +40,75 @@ button {
     border: none;
     border-radius: var(--button_radius);
     background: var(--button_outline_color);
-  }
+}
 
  .jumbotron{
     margin: 0px 100px 20px 100px;
     background-image: url("/Imagenes/Medusa-jumbotron-unsplash.jpg");
-    background-size: 962px 341px;
+    background-size: 868px 452px;
     background-repeat: no-repeat;
     background-position: 1px -8px;
     color: aliceblue;
+    height: 250px;
+    border-radius: 0px;
+ }
+ .jumbotron h1{
+    font-size: 5vw; 
  }
  .catalogo{
     display: flex;
     justify-content: center;
+    margin: 100px;
  }
 
  .card{
     width: 272px;
+    margin: 5px;
  }
+ .adicional{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+ }
+ .imagen-adicional{
+    width: 267px;
+    height: 400px;
+    background-color: #04121e;
+ }
+ .info-adicional{
+    width: 600px;
+    height: 400px;
+    background-color: #04121e;
+ }
+ #medusa-adi{
+    width: 268px;
+ }  
+ .info-adicional{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+ }
+ .info-adicional h3{
+    margin-left: 100px;
+ }
+ .info-adicional h1{
+    margin-left: 88px;
+ }
+ .info-adicional p {
+    margin-left: 88px;
+    margin-right: 121px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.imacard{
+    width: 100%;
+    height: 300px;
+}
+.card{
+    width: 100%;
+    margin: 20px;
+    border-radius: 5px;
+}
