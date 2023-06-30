@@ -50,3 +50,11 @@ button {
     background-position: 1px -8px;
     color: aliceblue;
  }
+ .catalogo{
+    display: flex;
+    justify-content: center;
+ }
+
+ .card{
+    width: 272px;
+ }
