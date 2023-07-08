@@ -206,3 +206,58 @@ button {
     }
 
 }
+/*Medida para Celular pequeño 360x640 px*/
+@media screen and (max-width: 360px){
+    .header {
+        background-color: #04121e;
+        width: 100%;
+        height: 122px;
+        display: flex;
+        justify-content: center;
+    }
+    #logo {
+        width: 100px;
+        padding: 8px;
+    }
+    ul {
+        margin-top: 15px;
+        margin-bottom: 1rem;
+        padding-left: 18px;
+    }
+    .header ul li {
+        display: flex;
+        font-size: 14px;
+        font-weight: 600;
+        flex-wrap: nowrap;
+    }
+    .jumbotron{
+        margin: 0px 0px 0px 0px;
+        background-position: -78px -31px;
+        border-radius: 0%;
+    }
+    p{
+        width: 105px;
+    }
+    .catalogo {
+        margin: 1px 38px 1px -8px;
+        display: flex;
+        justify-content: center;
+    }
+    .card-body {
+        padding: 12px;
+    }
+    .card-title {
+        display: flex;
+        justify-content: center;
+    }
+    .card-text{
+        margin-top: 0;
+        margin-bottom: 1rem;
+        display: flex;
+        width: 309px;
+        justify-content: center;
+    }
+    .imagen-adicional {
+        width: 160px;
+    }
+}

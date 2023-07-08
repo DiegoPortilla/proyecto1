@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#04121e;
+}
+body{
+    background-color:#04121e;  
+}
+.header{
+    background-color:#04121e;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#logo{
+    width: 48px;
+}
+.button_top {
+    --button_color: #e8e8e8;
+    font-size: 14px;
+    border: none;
+    border-radius: var(--button_radius);
+    background: var(--button_outline_color);
+}
+.section{
+    display: flex;
+    justify-content: center;
+    padding-top: 160px;
+ }
+ #logoini{
+    width: 130px;
+ }
+ .login{
+    margin-left: 40px;
+ }
